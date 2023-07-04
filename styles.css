@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+    margin: 0px;
+    width: auto;
+    height: auto;
+    font-family: 'Inter',sans-serif;
+    justify-content: baseline;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+}
+#container #ip-address{
+    font-size: 30px;
+    padding-inline: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+button{
+    width: 303px;
+    height: 67px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 41px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+#data{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#data > p{
+    margin-left: 40px;
+    text-align: start;
+    font-style: bold;
+    font-weight:bolder;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+input{
+    width: 1408px;
+    height: 85px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-inline: 100px;
+    font-size: 32px;
+}
+
+#card{
+    width: 678.39px;
+    height: 399px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+#card > p{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+#details{
+    margin-top: 678px;
+    margin-left: 41px;
+    font-size: 41px;
+    width: 1167px;
+    margin-bottom: 20px;
+}
+
+#details > p{
+    padding-inline: 10px;
+    align-items: end;
+}
